@@ -1,0 +1,132 @@
+/* a reset */
+a:hover {
+	color: #1f5ba8;
+	text-decoration: none;
+}
+
+/* btn reset */
+.btn-primary {
+	background-color: #1f5ba8;
+	border: none;
+}
+.btn-primary:hover {
+	background-color: #2471BF;
+}
+.btn-md {
+	width: 120px;
+}
+.btn-outline-primary{
+	color: #1f5ba8;
+	border-color: #1f5ba8;
+}
+.btn-link{
+	color: #1f5ba8;
+}
+.btn-outline-primary:hover{
+	background-color: #1f5ba8;
+  border-color: #1f5ba8;
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+	background-color: #1f5ba8;
+	border: none;
+}
+
+/* file css */
+.custom-file-label, .custom-file-label:after{
+	line-height: 1;
+	padding: 2px 15px;
+}
+.custom-file-label:after {
+	bottom: 0;
+	z-index: 3;
+	display: block;
+	height: 2.19rem;
+	width: 3.1rem;
+	text-align: center;
+	content: "+";
+	cursor: pointer;
+	font-size: 1.8rem;
+	background-color: #DCEBFF;
+	color: #1F5BA8;
+	border: 1px dashed #1F5BA8;
+}
+
+.custom-file-input:lang(en)~.custom-file-label:after {
+	content: "+";
+}
+
+.custom-file,.custom-file-input {
+	width: 52px;
+	overflow: hidden;
+    height: 37px;
+}
+/* color reset */
+.text-primary{
+	color: #1f5ba8!important;
+}
+.text-secondary{
+	color: #727272!important;
+}
+.text-light{
+	color:#404040!important;
+}
+a.text-light:focus, a.text-light:hover {
+    color: #1f5ba8!important;
+}
+/* alert */
+.alert{
+	padding: .3rem 1rem;
+}
+/* border css */
+.border-primary{
+	border-color: #1f5ba8!important;
+}
+.navbar{
+	padding: .5rem 2rem;
+}
+/* form css */
+.form-control {
+	border:none;
+	border-bottom:1px solid #dfdfdf;
+	background-color: transparent;
+	color: #404040;
+	border-radius:0;
+	padding-left:0;
+	padding-right:0;
+}
+.form-control:focus {
+	outline:none;
+	background-color:transparent;
+	box-shadow:none;
+}
+.form-control.is-invalid:focus{
+	box-shadow: none;
+}
+.form-check-label{
+	color: #404040;
+}
+.form-control::placeholder {
+	color: #404040;
+	background-color: transparent;
+}
+/* table css */
+.table thead th{
+	border-bottom: none;
+}
+.table td, .table th{
+	border-top: none;
+	padding-left: 0;
+}
+.table th{
+	font-weight: normal;
+	color: #1f5ba8;
+}
+
+/* card css */
+.card-body{
+}
+
+/* shadow css */
+.shadow {
+	box-shadow: 0 .2rem .5rem rgba(0,0,0,.15)!important;
+}
