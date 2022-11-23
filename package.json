@@ -21,7 +21,7 @@
         "nodemailer-smtp-transport": "^2.7.4",
         "onesignal-node": "^2.0.1",
         "request": "^2.88.0",
-        "socket.io": "^2.2.0"
+        "socket.io": "^2.5.0"
     },
     "devDependencies": {
         "axios": "^0.18",
