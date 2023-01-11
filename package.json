@@ -15,7 +15,7 @@
         "cron": "^1.7.0",
         "express": "^4.16.4",
         "i18n": "^0.8.3",
-        "knex": "^0.16.3",
+        "knex": "^2.4.0",
         "mysql": "^2.16.0",
         "nodemailer": "^6.1.1",
         "nodemailer-smtp-transport": "^2.7.4",
